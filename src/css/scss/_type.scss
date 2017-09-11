@@ -13,13 +13,13 @@ h6 {
   font-weight: $headings-font-weight;
   line-height: 1.2;
   margin: 0;
-  margin-bottom: $body-font-size;
-  margin-top: 1.5 * $body-font-size;
+  margin-bottom: 0.5 * $body-font-size;
+  margin-top: 0.75 * $body-font-size;
 }
 
 h1, h2 {
-  margin-bottom: 1.5 * $body-font-size;
-  margin-top: 2 * $body-font-size;
+  margin-bottom: 0.75 * $body-font-size;
+  margin-top: 1 * $body-font-size;
 }
 
 h1 {
@@ -49,25 +49,25 @@ ol {
   font-size: $body-font-size;
   font-weight: normal;
   margin: 0;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   color: $font-color;
 }
 
 ul, ol {
   padding: 0;
   margin: 0;
-  margin-bottom: 15px;
+  margin-bottom: 7.5px;
   padding-left: 25px;
 
   li {
     list-style-position: outside;
     margin-left: 5px;
-    margin-bottom: 2px;
+    margin-bottom: 1px;
   }
 }
 
 li > ul, li > ol {
-  margin-top: 15px;
+  margin-top: 7.5px;
 }
 
 a {
@@ -89,29 +89,32 @@ pre,
 
 pre, code {
   font-family: $font-family-monospace;
+  font-size: 0.85 * $body-font-size;
 }
 
 pre {
   display: block;
   width: 96%;
   margin: 1em 0;
-  background: $grey-light;
+  color: #cccccc;
+  background-color: #303030;
   padding: 2%;
   white-space: pre-wrap;
-  font-size: 0.9 * $body-font-size;
+  border-radius: $btn-br;
 }
 
 
 blockquote {
-  margin: 0;
-  padding: 0;
-  padding-top: $body-font-size;
-  padding-bottom: $body-font-size;
-  padding-left: 2 * $body-font-size;
-  padding-right: 2 * $body-font-size;
-  border-left: 4px solid $grey-medium;
+  padding-top: 0 * $body-font-size;
+  padding-bottom: 0 * $body-font-size;
+  padding-left: 0.5 * $body-font-size;
+  padding-right: 0.5 * $body-font-size;
+  border-left: 2px solid $grey-medium;
   font-style: italic;
-  margin: 2em 0;
+  margin-top: 0.5 * $body-font-size;
+  margin-bottom: 0.5 * $body-font-size;
+  margin-left: 3px;
+  margin-right: 0;
 
   p {
     margin-bottom: 0;
