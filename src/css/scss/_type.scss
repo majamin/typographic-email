@@ -103,6 +103,10 @@ pre {
   border-radius: $btn-br;
 }
 
+p > code {
+  color: $black;
+  background: none;
+}
 
 blockquote {
   padding-top: 0 * $body-font-size;
