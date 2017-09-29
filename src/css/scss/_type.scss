@@ -49,12 +49,11 @@ ol {
   font-size: $body-font-size;
   font-weight: normal;
   margin: 0;
-  margin-bottom: 15px;
+  padding-top: 0.5*$body-font-size;
   color: $font-color;
 }
 
 ul, ol {
-  padding: 0;
   margin: 0;
   margin-bottom: 7.5px;
   padding-left: 25px;
@@ -96,6 +95,7 @@ pre {
   display: block;
   width: 96%;
   margin: 1em 0;
+  margin-bottom: 9px;
   color: #cccccc;
   background-color: #303030;
   padding: 2%;
@@ -109,20 +109,10 @@ p > code {
 }
 
 blockquote {
-  padding-top: 0 * $body-font-size;
-  padding-bottom: 0 * $body-font-size;
-  padding-left: 0.5 * $body-font-size;
-  padding-right: 0.5 * $body-font-size;
+  padding: 0 0.5*$body-font-size 0 0.5*$body-font-size;
   border-left: 2px solid $grey-medium;
   font-style: italic;
-  margin-top: 0.5 * $body-font-size;
-  margin-bottom: 0.5 * $body-font-size;
-  margin-left: 3px;
-  margin-right: 0;
-
-  p {
-    margin-bottom: 0;
-  }
+  margin: 0 0 0.5*$body-font-size 3px;
 }
 
 mark {
