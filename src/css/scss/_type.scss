@@ -75,6 +75,11 @@ a {
   font-weight: $headings-font-weight;
 }
 
+pre > a, code > a {
+  color: none;
+  font-weight: $body-font-weight;
+}
+
 // Break long strings to prevent x-scrolling
 code,
 pre,
@@ -96,9 +101,8 @@ pre {
   width: 96%;
   margin: 1em 0;
   margin-bottom: 9px;
-  color: #cccccc;
-  background-color: #303030;
-  padding: 2%;
+  background: $grey-light;
+  padding: 1%;
   white-space: pre-wrap;
   border-radius: $btn-br;
 }
