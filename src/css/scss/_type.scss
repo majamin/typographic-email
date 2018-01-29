@@ -115,8 +115,13 @@ p > code {
 blockquote {
   padding: 0 0.5*$body-font-size 0 0.5*$body-font-size;
   border-left: 2px solid $grey-medium;
+  border-top: 0.3*$body-font-size solid transparent;
   font-style: italic;
   margin: 0 0 0.5*$body-font-size 3px;
+
+  p {
+    padding: 0;
+  }
 }
 
 mark {
